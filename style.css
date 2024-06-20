@@ -1,3 +1,26 @@
+.table-div {
+	padding-top: 50px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+}
+
+tbody tr:nth-child(even) {
+	background-color: #eee;
+}
+  
+tbody th {
+	background-color: #36c;
+	color: #fff;
+	text-align: left;
+}
+
+.cell-highlight {
+	background-color: gold;
+	font-weight: bold;
+  }
+
 .table-sortable th {
 	cursor: pointer;
 }
