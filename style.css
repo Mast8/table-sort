@@ -1,10 +1,26 @@
 .table-div {
 	padding-top: 50px;
+	
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 
 }
+th {
+	background-color: #04AA6D;
+	color: white;
+}
+
+.th-no-color {
+	background-color: white;
+	color: white;
+}
+
+
+th, td {
+	padding: 15px;
+	text-align: left;
+  }
 
 tbody tr:nth-child(even) {
 	background-color: #eee;
